@@ -21,5 +21,9 @@
 
 # Deploy Links
 
-- GitHub: 
+- GitHub: https://mattyouknowwho.github.io/ProPortfolio/
 - Heroku: 
+
+# Questions? 
+- Feel free to contact me at matt.cdunston21@gmail.com
+- Made with a 🧠 by Matt Dunston

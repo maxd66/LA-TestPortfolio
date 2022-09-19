@@ -54,7 +54,7 @@ const Work = () => {
     return (
         <>
            <Grid container justifyContent="center">
-        <h1>My projects</h1>
+        <h1>My projects 🧠 </h1>
       </Grid>
       <Grid container spacing={4} padding={2} justifyContent="center">
         

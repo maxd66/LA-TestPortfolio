@@ -24,7 +24,7 @@ const About = () => {
 
             <Grid item xs={12} md={3}>
                 <h1>Matt Dunston</h1>
-                <p> Welcome to my page, I know you won't regret checking me out. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, omnis exercitationem fuga quaerat quae eius quam numquam temporibus aliquid sapiente ipsum debitis consectetur doloribus odit, ipsam facere perferendis placeat laborum. </p>
+                <p> Hi there, my name is Matt Dunston and I want to welcome you to my Portfolio! I am a college student   obsessed with Star Wars and the latest and greatest in technology and web development. I have an Associate’s degree in Business Administration and attended the University of California, Irvine, Coding Camp. I currently work as a Junior Technician for Insight Methods and hope to work in IT and Web Development in the future. In this Portfolio, you’ll find my updated resume, contact information, and all the coding projects I’ve worked on. Feel free to browse and peruse at your leisure! </p>
          </Grid>       
          </Grid>
          </Box>

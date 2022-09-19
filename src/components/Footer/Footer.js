@@ -8,9 +8,9 @@ import './footer.css'
 const Footer = () => {
   return (
     <>
-      <Grid className="footer" container justifyContent="center" padding={4} position>
+      <Grid className="footer" container justifyContent="center" padding={4} position={4} bottom={0}>
         
-        <Grid item xs={12} md={3} >
+        <Grid item xs={12} md={3}  >
        <a href="https://github.com/MattYouKnowWho" target="_blank">
         <GitHubIcon>
         </GitHubIcon>

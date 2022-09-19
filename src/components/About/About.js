@@ -11,7 +11,7 @@ const About = () => {
     return (
         <>
          <Box minHeight= '85vh'>
-         <Grid justifyContent= "center"container padding={2} spacing={2}>
+         <Grid justifyContent= "center"container padding={2} spacing={2} fontSize={18}>
         {/* <Grid item md={2}></Grid> */}
              {/* the above grid item prevents it from being centered */}
              <Grid item xs={12} md={4}>

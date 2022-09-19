@@ -91,7 +91,7 @@ const RecipeReviewCard =({title, github, heroku, image, description}) => {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography paragraph>Method:</Typography>
+          {/* <Typography paragraph>Method:</Typography>
           <Typography paragraph>
             Heat 1/2 cup of the broth in a pot until simmering, add saffron and set
             aside for 10 minutes.
@@ -115,7 +115,7 @@ const RecipeReviewCard =({title, github, heroku, image, description}) => {
           </Typography>
           <Typography>
             Set aside off of the heat to let rest for 10 minutes, and then serve.
-          </Typography>
+          </Typography> */}
         </CardContent>
       </Collapse>
     </Card>

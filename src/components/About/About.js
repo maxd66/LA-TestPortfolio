@@ -14,7 +14,7 @@ const About = () => {
          <Grid justifyContent= "center"container padding={2} spacing={2}>
         {/* <Grid item md={2}></Grid> */}
              {/* the above grid item prevents it from being centered */}
-            <Grid itemxs={12} md={4}>
+             <Grid item xs={12} md={4}>
                 <Avatar 
                     alt="Matt Dunston" src={selfie} sx={{width: 1, height: 1}}>
                 </Avatar>

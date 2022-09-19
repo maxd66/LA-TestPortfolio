@@ -56,16 +56,16 @@ const RecipeReviewCard =({title, github, heroku, image, description}) => {
         height="194"
         image={image}
         alt="Paella dish"
-        description={description}
+        
       />
       <CardContent>
-        <a href={description} target='_blank'>
+       
         <Typography variant="body2" color="text.secondary">
           This impressive paella is a perfect party dish and a fun meal to cook
           together with your guests. Add 1 cup of frozen peas along with the mussels,
           if you like.
         </Typography>
-        </a>
+        
       </CardContent>
       <CardActions disableSpacing>
         <IconButton aria-label="add to favorites">

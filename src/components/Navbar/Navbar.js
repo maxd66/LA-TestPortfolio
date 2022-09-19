@@ -12,13 +12,28 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import Resume from '../../assets/other/Resume 2.1.pdf'
+
 
 const pages = ['Products', 'Pricing', 'Blog'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
-const ResponsiveAppBar = () => {
+const ResponsiveAppBar = ({pageState, setPageState}) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
+
+
+  const handleOpenAbout = () => {
+    setPageState({...pageState, about: true, work: false, contact: false})
+  }
+
+  const handleOpenWork = () => {
+   setPageState({...pageState, about: false, work: true, contact: false})
+  }
+
+  const handleOpenContact = () => {
+   setPageState({...pageState, about: false, work: false, contact: true})
+  }
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -125,35 +140,36 @@ const ResponsiveAppBar = () => {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             
+          <Button
+               
+               onClick={handleOpenAbout}
+               sx={{ my: 2, color: 'white', display: 'block' }}
+             >
+              About
+             </Button>
               <Button
-                
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-                About
-              </Button>
-
+              
+               onClick={handleOpenWork}
+               sx={{ my: 2, color: 'white', display: 'block' }}
+             >
+              Work
+             </Button>
               <Button
-                
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-                Contact
-              </Button>
+              
+               onClick={handleOpenContact}
+               sx={{ my: 2, color: 'white', display: 'block' }}
+             >
+              Contact
+             </Button>
+             <a href={Resume} target="_blank">
               <Button
-                
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-                Work
-              </Button>
-              <Button
-                
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-                Resume
-              </Button>
+              
+               onClick={handleCloseNavMenu}
+               sx={{ my: 2, color: 'white', display: 'block' }}
+             >
+              Resume
+             </Button>
+             </a>
             
           </Box>
 

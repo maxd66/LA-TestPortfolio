@@ -11,20 +11,20 @@ const Footer = () => {
       <Grid className="footer" container justifyContent="center" padding={2}>
         
         <Grid item xs={12} md={3} >
-       <a href="https://github.com/" target="_blank">
+       <a href="https://github.com/MattYouKnowWho" target="_blank">
         <GitHubIcon>
         </GitHubIcon>
         </a>
         </Grid>
         <Grid item xs={12} md={3} >
-       <a href="https://linkedin.com/" target="_blank">
+       <a href="https://www.linkedin.com/in/mdunston4u/" target="_blank">
         <LinkedInIcon>
         </LinkedInIcon>
         </a>
         </Grid>
         
         <Grid item xs={12} md={3} >
-       <a href="https://instagram.com/" target="_blank">
+       <a href="https://www.instagram.com/_mattyouknowwho_/" target="_blank">
         <InstagramIcon>
         </InstagramIcon>
         </a>

@@ -1,3 +1,6 @@
 .footer {
-    background-color: cornflowerblue;
-  }
+    background-color: rgba(51, 121, 183, 0.742);
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+}

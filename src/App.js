@@ -5,6 +5,8 @@ import About from './components/About'
 import Work from './components/Work'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+
+
 function App() {
   const [pageState, setPageState] = useState({
     about: true,

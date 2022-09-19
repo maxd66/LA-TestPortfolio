@@ -19,10 +19,10 @@
 <img width="2240" alt="Screen Shot 2022-09-18 at 6 51 00 PM" src="https://user-images.githubusercontent.com/99387661/190938480-a6999e52-dbe9-4cdf-9cfc-662856c77de5.png">
  ----------------------------------------------------------------------------------------------------------------------------------
 
-# Deploy Links
+# Deploy
 
 - GitHub: https://mattyouknowwho.github.io/ProPortfolio/
-- Heroku: 
+
 
 # Questions? 
 - Feel free to contact me at matt.cdunston21@gmail.com

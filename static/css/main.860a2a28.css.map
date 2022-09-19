@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.860a2a28.css","mappings":"AAAA,QACI,sCAA2C,CAE3C,QAAW,CADX,SAAY,CAEZ,cACJ","sources":["components/Footer/footer.css"],"sourcesContent":[".footer {\n    background-color: rgba(51, 121, 183, 0.742);\n    padding: 0px;\n    margin: 0px;\n    position: fixed;\n}"],"names":[],"sourceRoot":""}
